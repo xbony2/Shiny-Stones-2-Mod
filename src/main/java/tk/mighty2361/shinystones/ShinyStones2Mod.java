@@ -1,5 +1,6 @@
 package tk.mighty2361.shinystones;
 
+import tk.mighty2361.shinystones.common.ShinyStonesBlocks;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -9,6 +10,6 @@ public class ShinyStones2Mod {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		
+		ShinyStonesBlocks.registerBlocks();
 	}
 }

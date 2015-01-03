@@ -2,6 +2,7 @@ package tk.mighty2361.shinystones;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import tk.mighty2361.shinystones.common.SSWorldGenerator;
 import tk.mighty2361.shinystones.common.ShinyStonesBlocks;
 import tk.mighty2361.shinystones.common.ShinyStonesItems;
 import tk.mighty2361.shinystones.recipes.ShapedRecipes;
@@ -10,6 +11,7 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
@@ -35,6 +37,8 @@ public class ShinyStones2Mod {
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event){
+		GameRegistry.registerWorldGenerator(new SSWorldGenerator(), 1);
+		
 		ShapedRecipes.addRecipes();
 		
 		SmeltingRecipes.addRecipes();

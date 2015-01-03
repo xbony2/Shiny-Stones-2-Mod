@@ -7,7 +7,7 @@ public class ShinyStone extends SSBlock{
 	public ShinyStone(String unlocalizedName) {
 		super(Material.glass, unlocalizedName);
 		this.setStepSound(this.soundTypeGlass);
-		this.setLightLevel(1);
+		this.setLightLevel(1.0F);
 	}
 
 }

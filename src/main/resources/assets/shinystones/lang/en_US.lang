@@ -1,0 +1,13 @@
+tile.XBONY2_shinyAir.name=Air Shinystone
+tile.XBONY2_shinyWater.name=Water Shinystone
+tile.XBONY2_shinyEarth.name=Earth Shinystone
+tile.XBONY2_shinyFire.name=Fire Shinystone
+
+item.XBONY2_ingotElementium.name=Elementium Ingot
+item.XBONY2_dustElementium.name=Elementium Dust
+item.XBONY2_dustAir.name=Shiny Air Dust
+item.XBONY2_dustWater.name=Shiny Water Dust
+item.XBONY2_dustEarth.name=Shiny Earth Dust
+item.XBONY2_dustFire.name=Shiny Fire Dust
+
+itemGroup.shinyTab=Shinystones 2

@@ -11,5 +11,6 @@ public class SmeltingRecipes {
 		GameRegistry.addSmelting(ShinyStonesBlocks.shinyWaterStone, new ItemStack(ShinyStonesItems.shinyWaterDust, 6), 0.2F);
 		GameRegistry.addSmelting(ShinyStonesBlocks.shinyEarthStone, new ItemStack(ShinyStonesItems.shinyEarthDust, 6), 0.2F);
 		GameRegistry.addSmelting(ShinyStonesBlocks.shinyFireStone, new ItemStack(ShinyStonesItems.shinyFireDust, 6), 0.2F);
+		GameRegistry.addSmelting(ShinyStonesItems.elementDust, new ItemStack(ShinyStonesItems.elementIngot), 0.2F);
 	}
 }

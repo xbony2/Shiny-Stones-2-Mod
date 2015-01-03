@@ -9,5 +9,7 @@ item.XBONY2_dustAir.name=Shiny Air Dust
 item.XBONY2_dustWater.name=Shiny Water Dust
 item.XBONY2_dustEarth.name=Shiny Earth Dust
 item.XBONY2_dustFire.name=Shiny Fire Dust
+item.XBONY2_chunkElement.name=Elementium Chunk
+item.XBONY2_fuelElement.name=Elementium Fuel
 
 itemGroup.shinyTab=Shinystones 2

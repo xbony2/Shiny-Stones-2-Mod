@@ -25,5 +25,7 @@ public class ShinyStonesItems {
 		shinyWaterDust = new SSItem("XBONY2_dustWater");
 		shinyEarthDust = new SSItem("XBONY2_dustEarth");
 		shinyFireDust = new SSItem("XBONY2_dustFire");
+		elementChunk = new SSItem("XBONY2_chunkElement");
+		elementFuel = new SSItem("XBONY2_fuelElement");
 	}
 }

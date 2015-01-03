@@ -4,7 +4,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import tk.mighty2361.shinystones.common.ShinyStonesBlocks;
 import tk.mighty2361.shinystones.common.ShinyStonesItems;
-import tk.mighty2361.shinystones.recipes.ShapelessRecipes;
+import tk.mighty2361.shinystones.recipes.ShapedRecipes;
 import tk.mighty2361.shinystones.recipes.SmeltingRecipes;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -35,7 +35,7 @@ public class ShinyStones2Mod {
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event){
-		ShapelessRecipes.addRecipes();
+		ShapedRecipes.addRecipes();
 		
 		SmeltingRecipes.addRecipes();
 	}

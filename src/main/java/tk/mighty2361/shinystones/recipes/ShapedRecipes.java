@@ -1,12 +1,13 @@
 package tk.mighty2361.shinystones.recipes;
 
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import tk.mighty2361.shinystones.common.ShinyStonesBlocks;
 import tk.mighty2361.shinystones.common.ShinyStonesItems;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-public class ShapelessRecipes {
+public class ShapedRecipes {
 	private static final String[] HELMET = new String[]{"XXX", "X X"};
 	private static final String[] CHESTPLATE = new String[]{"X X", "XXX", "XXX"};
 	private static final String[] LEGGINGS = new String[]{"XXX", "X X", "X X"};
@@ -32,6 +33,12 @@ public class ShapelessRecipes {
 			M_BLOCK, 'M', "glowstone", 'X', "XBONY2_dustFire"}));
 		
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ShinyStonesItems.elementDust), new Object[]{
-			"12", "34", '1', "XBONY2_dustFire", '2', "XBONY2_dustAir", '3', "XBONY2_dustEarth", '4', "XBONY2_Water"}));
+			"12", "34", '1', "XBONY2_dustAir", '2', "XBONY2_dustEarth", '3', "XBONY2_dustWater", '4', "XBONY2_dustFire"}));
+		
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ShinyStonesItems.elementChunk), new Object[]{
+			M_BLOCK, 'X', Items.coal, 'M', "XBONY2_ingotElementium"}));
+		
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ShinyStonesItems.elementFuel), new Object[]{
+			BLOCK, 'X', "XBONY2_chunkElement"}));
 	}
 }

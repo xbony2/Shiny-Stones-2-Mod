@@ -40,5 +40,12 @@ public class ShapedRecipes {
 		
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ShinyStonesItems.elementFuel), new Object[]{
 			BLOCK, 'X', "XBONY2_chunkElement"}));
+		
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ShinyStonesBlocks.elementFuelBlock), new Object[]{
+			BLOCK, 'X', "XBONY2_fuelElement"}));
+		
+		//I'm too lazy to set up a shapeless recipe class. Don't tell anyone.
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ShinyStonesItems.elementFuel, 9), new Object[]{
+			"X", 'X', "XBONY2_blockElementFuel"}));
 	}
 }

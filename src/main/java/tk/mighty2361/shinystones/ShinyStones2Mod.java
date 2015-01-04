@@ -2,6 +2,7 @@ package tk.mighty2361.shinystones;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import tk.mighty2361.shinystones.common.SSFuelHandler;
 import tk.mighty2361.shinystones.common.SSWorldGenerator;
 import tk.mighty2361.shinystones.common.ShinyStonesBlocks;
 import tk.mighty2361.shinystones.common.ShinyStonesItems;
@@ -29,6 +30,8 @@ public class ShinyStones2Mod {
 				return Item.getItemFromBlock(ShinyStonesBlocks.shinyEarthStone); 
 			}
 		};
+		
+		GameRegistry.registerFuelHandler(new SSFuelHandler());
 		
 		ShinyStonesBlocks.registerBlocks();
 		

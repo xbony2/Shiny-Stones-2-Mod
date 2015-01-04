@@ -2,6 +2,7 @@ tile.XBONY2_shinyAir.name=Air Shinystone
 tile.XBONY2_shinyWater.name=Water Shinystone
 tile.XBONY2_shinyEarth.name=Earth Shinystone
 tile.XBONY2_shinyFire.name=Fire Shinystone
+tile.XBONY2_blockElementFuel.name=Elementium Fuel Block
 
 item.XBONY2_ingotElementium.name=Elementium Ingot
 item.XBONY2_dustElementium.name=Elementium Dust

@@ -27,15 +27,15 @@ public class ShinyStones2Mod {
 			@Override 
 			@SideOnly(Side.CLIENT)
 			public Item getTabIconItem() {
-				return Item.getItemFromBlock(ShinyStonesBlocks.shinyEarthStone); 
+				return ShinyStonesItems.elementIngot; 
 			}
 		};
-		
-		GameRegistry.registerFuelHandler(new SSFuelHandler());
 		
 		ShinyStonesBlocks.registerBlocks();
 		
 		ShinyStonesItems.registerItems();
+		
+		GameRegistry.registerFuelHandler(new SSFuelHandler());
 	}
 	
 	@EventHandler

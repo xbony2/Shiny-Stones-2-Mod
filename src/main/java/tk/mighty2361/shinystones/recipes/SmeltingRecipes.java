@@ -13,8 +13,8 @@ public class SmeltingRecipes {
 	 * @author xbony2, mighty
 	 */
 	public static void addRecipes(){
-		SSFuelHandler.addItemFurnaceFuel(ShinyStonesItems.elementFuel, 30000);
-		SSFuelHandler.addBlockFurnaceFuel(ShinyStonesBlocks.elementFuelBlock, 280000);
+		SSFuelHandler.addItemFurnaceFuel(ShinyStonesItems.elementFuel, 3000);
+		SSFuelHandler.addBlockFurnaceFuel(ShinyStonesBlocks.elementFuelBlock, 28000);
 		
 		GameRegistry.addSmelting(ShinyStonesBlocks.shinyAirStone, new ItemStack(ShinyStonesItems.shinyAirDust, 6), 0.2F);
 		GameRegistry.addSmelting(ShinyStonesBlocks.shinyWaterStone, new ItemStack(ShinyStonesItems.shinyWaterDust, 6), 0.2F);

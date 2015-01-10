@@ -6,6 +6,7 @@ import tk.mighty2361.shinystones.common.SSFuelHandler;
 import tk.mighty2361.shinystones.common.SSWorldGenerator;
 import tk.mighty2361.shinystones.common.ShinyStonesBlocks;
 import tk.mighty2361.shinystones.common.ShinyStonesItems;
+import tk.mighty2361.shinystones.crossmod.CrossMod;
 import tk.mighty2361.shinystones.recipes.ShapedRecipes;
 import tk.mighty2361.shinystones.recipes.SmeltingRecipes;
 import cpw.mods.fml.common.Mod;
@@ -36,6 +37,8 @@ public class ShinyStones2Mod {
 		ShinyStonesItems.registerItems();
 		
 		GameRegistry.registerFuelHandler(new SSFuelHandler());
+		
+		CrossMod.preinit();
 	}
 	
 	@EventHandler
@@ -45,5 +48,7 @@ public class ShinyStones2Mod {
 		ShapedRecipes.addRecipes();
 		
 		SmeltingRecipes.addRecipes();
+		
+		CrossMod.init();
 	}
 }

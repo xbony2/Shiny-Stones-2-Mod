@@ -35,6 +35,7 @@ repositories {
 
 dependencies {
 	compile ic2Version
+	compile files(clVersion)
 }
 
 processResources {

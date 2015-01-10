@@ -16,3 +16,7 @@ hs_err_pid*
 
 # Gradlew
 !gradle/wrapper/gradle-wrapper.jar
+
+# Dependencies
+!lib/ColoredLightsCore-deobf-1.2.1.jar
+!lib/ColoredLightsCore-src-1.2.1.jar

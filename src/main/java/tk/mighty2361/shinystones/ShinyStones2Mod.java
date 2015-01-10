@@ -28,7 +28,7 @@ public class ShinyStones2Mod {
 			@Override 
 			@SideOnly(Side.CLIENT)
 			public Item getTabIconItem() {
-				return ShinyStonesItems.elementIngot; 
+				return ShinyStonesItems.elementIngot;
 			}
 		};
 		
